@@ -75,4 +75,4 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 *.log
-Saved/Logs/*
+Saved/Logs/**

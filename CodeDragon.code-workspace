@@ -721,7 +721,10 @@
 			},
 			{
 				"label": "CodeDragonEditor Linux Development Rebuild",
-				"group": "build",
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				},
 				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 				"args": [
 					"CodeDragonEditor",

@@ -1,0 +1,919 @@
+{
+	"folders": [
+		{
+			"name": "CodeDragon",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/home/juliavalentini/EpicGames/UnrealEngine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"terminal.integrated.env.linux": {
+			"PATH": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64:${env:PATH}",
+			"DOTNET_ROOT": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64",
+			"DOTNET_HOST_PATH": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64/dotnet",
+			"DOTNET_MULTILEVEL_LOOKUP": "0",
+			"DOTNET_ROLL_FORWARD": "LatestMajor"
+		},
+		"editor.formatOnSave": true,
+		"files.autoSave": "afterDelay",
+		"editor.formatOnPaste": true,
+		"editor.autoClosingBrackets": "beforeWhitespace",
+		"editor.autoClosingQuotes": "beforeWhitespace",
+		"editor.autoIndentOnPaste": true,
+		"workbench.settings.showAISearchToggle": false,
+		"gitlens.ai.enabled": false,
+		"chat.disableAIFeatures": true,
+		"telemetry.editStats.enabled": false,
+		"telemetry.feedback.enabled": false,
+		"dotnetAcquisitionExtension.enableTelemetry": false,
+		"gitlens.telemetry.enabled": false
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "CodeDragon Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Test",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Test",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Test",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Shipping",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Shipping",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"Linux",
+					"Shipping",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Test",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Test",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Test",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Shipping",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Shipping",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragon LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragon LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragon",
+					"LinuxArm64",
+					"Shipping",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragonEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"Debug",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragonEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"DebugGame",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CodeDragonEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"label": "CodeDragonEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CodeDragonEditor",
+					"Linux",
+					"Development",
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch CodeDragon (Debug)",
+				"request": "launch",
+				"program": "/mnt/HDD/UnrealProjects/CodeDragon/Binaries/Linux/CodeDragon-Linux-Debug",
+				"preLaunchTask": "CodeDragon Linux Debug Build",
+				"args": [],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragon (DebugGame)",
+				"request": "launch",
+				"program": "/mnt/HDD/UnrealProjects/CodeDragon/Binaries/Linux/CodeDragon-Linux-DebugGame",
+				"preLaunchTask": "CodeDragon Linux DebugGame Build",
+				"args": [],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragon (Development)",
+				"request": "launch",
+				"program": "/mnt/HDD/UnrealProjects/CodeDragon/Binaries/Linux/CodeDragon",
+				"preLaunchTask": "CodeDragon Linux Development Build",
+				"args": [],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragon (Test)",
+				"request": "launch",
+				"program": "/mnt/HDD/UnrealProjects/CodeDragon/Binaries/Linux/CodeDragon-Linux-Test",
+				"preLaunchTask": "CodeDragon Linux Test Build",
+				"args": [],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragon (Shipping)",
+				"request": "launch",
+				"program": "/mnt/HDD/UnrealProjects/CodeDragon/Binaries/Linux/CodeDragon-Linux-Shipping",
+				"preLaunchTask": "CodeDragon Linux Shipping Build",
+				"args": [],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragonEditor (Debug)",
+				"request": "launch",
+				"program": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "CodeDragonEditor Linux Debug Build",
+				"args": [
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject"
+				],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragonEditor (DebugGame)",
+				"request": "launch",
+				"program": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "CodeDragonEditor Linux DebugGame Build",
+				"args": [
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject"
+				],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Launch CodeDragonEditor (Development)",
+				"request": "launch",
+				"program": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "CodeDragonEditor Linux Development Build",
+				"args": [
+					"/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject"
+				],
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine",
+				"type": "cppdbg",
+				"visualizerFile": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/CodeDragon": "/mnt/HDD/UnrealProjects/CodeDragon",
+					"/UEVFS/Root": "/home/juliavalentini/EpicGames/UnrealEngine"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/mnt/HDD/UnrealProjects/CodeDragon/CodeDragon.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"env": {
+					"PATH": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64:${env:PATH}",
+					"DOTNET_ROOT": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64",
+					"DOTNET_HOST_PATH": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64/dotnet",
+					"DOTNET_MULTILEVEL_LOOKUP": "0",
+					"DOTNET_ROLL_FORWARD": "LatestMajor"
+				},
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/home/juliavalentini/EpicGames/UnrealEngine"
+			}
+		]
+	}
+}

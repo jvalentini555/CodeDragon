@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragon.Build.cs",
+		"/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon.Target.cs",
+		"/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragonEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

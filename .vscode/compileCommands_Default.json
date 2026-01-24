@@ -1,0 +1,666 @@
+[
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragon.Build.cs",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragon.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragon.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragonCharacter.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragonCharacter.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragonGameMode.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragonGameMode.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragonPlayerController.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/CodeDragonPlayerController.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatAIController.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatAIController.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatEnemy.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatEnemy.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatEnemySpawner.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatEnemySpawner.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatStateTreeUtility.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/CombatStateTreeUtility.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/EnvQueryContext_Player.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/AI/EnvQueryContext_Player.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Animation/AnimNotify_CheckCombo.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Animation/AnimNotify_CheckCombo.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Animation/AnimNotify_DoAttackTrace.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Animation/AnimNotify_DoAttackTrace.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/CombatCharacter.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/CombatCharacter.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/CombatGameMode.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/CombatGameMode.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/CombatPlayerController.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/CombatPlayerController.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatActivationVolume.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatActivationVolume.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatCheckpointVolume.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatCheckpointVolume.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatDamageableBox.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatDamageableBox.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatDummy.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatDummy.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatLavaFloor.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Gameplay/CombatLavaFloor.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Interfaces/CombatActivatable.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Interfaces/CombatActivatable.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Interfaces/CombatAttacker.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Interfaces/CombatAttacker.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Interfaces/CombatDamageable.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/Interfaces/CombatDamageable.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/UI/CombatLifeBar.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Combat/UI/CombatLifeBar.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/Animation/AnimNotify_EndDash.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/Animation/AnimNotify_EndDash.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/PlatformingCharacter.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/PlatformingCharacter.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/PlatformingGameMode.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/PlatformingGameMode.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/PlatformingPlayerController.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_Platforming/PlatformingPlayerController.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/AI/SideScrollingAIController.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/AI/SideScrollingAIController.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/AI/SideScrollingNPC.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/AI/SideScrollingNPC.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingPickup.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingPickup.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Interfaces/SideScrollingInteractable.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/Interfaces/SideScrollingInteractable.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingCameraManager.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingCameraManager.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingCharacter.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingCharacter.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingGameMode.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingGameMode.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingPlayerController.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/SideScrollingPlayerController.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/UI/SideScrollingUI.cpp",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/HDD/UnrealProjects/CodeDragon/Source/CodeDragon/Variant_SideScrolling/UI/SideScrollingUI.h",
+		"arguments": [
+			"/home/juliavalentini/EpicGames/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/HDD/UnrealProjects/CodeDragon/.vscode/compileCommands_Default/CodeDragon.1.rsp"
+		],
+		"directory": "/home/juliavalentini/EpicGames/UnrealEngine/Engine/Source"
+	}
+]

@@ -31,7 +31,15 @@
 		"telemetry.editStats.enabled": false,
 		"telemetry.feedback.enabled": false,
 		"dotnetAcquisitionExtension.enableTelemetry": false,
-		"gitlens.telemetry.enabled": false
+		"gitlens.telemetry.enabled": false,
+		"typescript.preferences.includePackageJsonAutoImports": "off",
+		"typescript.suggest.autoImports": false,
+		"files.watcherExclude": {
+			"**/node_modules/**": true,
+			"**/.git/**": true,
+			"**/dist/**": true,
+			"**/.vscode/**": true
+		}
 	},
 	"extensions": {
 		"recommendations": [
@@ -704,7 +712,10 @@
 			},
 			{
 				"label": "CodeDragonEditor Linux Development Build",
-				"group": "build",
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				},
 				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 				"args": [
 					"CodeDragonEditor",
@@ -721,10 +732,7 @@
 			},
 			{
 				"label": "CodeDragonEditor Linux Development Rebuild",
-				"group": {
-					"kind": "build",
-					"isDefault": true
-				},
+				"group": "build",
 				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 				"args": [
 					"CodeDragonEditor",

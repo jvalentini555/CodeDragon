@@ -39,6 +39,19 @@
 			"**/.git/**": true,
 			"**/dist/**": true,
 			"**/.vscode/**": true
+		},
+		"files.exclude": {
+			"**/UE5/": true
+		},
+		"C_Cpp.files.exclude": {
+			"**/UE5/": true,
+			"**/.vscode": true,
+			"**/.vs": true
+		},
+		"workbench.startupEditor": "none",
+		"search.exclude": {
+			"*.log": true,
+			"**/UE5/": true
 		}
 	},
 	"extensions": {
